@@ -1,4 +1,3 @@
----
 # 🚀 CFRP-PINN
 
 **Physics-Informed Neural Network for Composite Materials**
@@ -49,8 +48,7 @@ Unlike purely data-driven models, this network embeds **micromechanical theory d
 * Weibull Fiber Length Distribution
 * Orientation Distribution via Double Gaussian
 
-Physics residual implemented in:
-👉 
+> 📌 *Physics residual implementation: add your file link here*
 
 ---
 
@@ -72,8 +70,7 @@ PMA Head
 Output → [σ_HT, E_HT]
 ```
 
-Core model implementation:
-👉 
+> 📌 *Core model implementation: add your file link here*
 
 ---
 
@@ -88,7 +85,7 @@ Total loss combines **data fidelity + physics constraints**:
 ### Progressive Physics Weighting
 
 [
-\lambda(t) = \lambda_{max} \cdot (1 - e^{-t/\tau})
+\lambda(t) = \lambda_{max} \cdot \left(1 - e^{-t/\tau}\right)
 ]
 
 * Prevents early training instability
@@ -111,12 +108,12 @@ Total loss combines **data fidelity + physics constraints**:
 
 ## 🔬 Why This Matters
 
-Traditional ML models:
+### Traditional ML Models
 
 * ❌ Ignore physics → poor extrapolation
 * ❌ Require large datasets
 
-This model:
+### CFRP-PINN
 
 * ✅ Enforces **physical laws explicitly**
 * ✅ Works with **limited data**
